@@ -15,7 +15,10 @@ const routes = [
     element: MovieList,
   },
   {
-    
+    name: 'detail movie',
+    path: '/movies/:id',
+    element: Movie,
+    isHidden: true,
   },
 ];
 
